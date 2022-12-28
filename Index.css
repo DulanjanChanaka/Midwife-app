@@ -43,9 +43,10 @@ body{
 .navbar ul li a{
     font-size: 25x;
     color: azure;
+    text-decoration: none;
 }
 .hero{
-    background-color: aliceblue;
+    background-color: #DEE2FF;
     height: 900px;
     width: 100%;
 }
@@ -79,6 +80,7 @@ body{
     padding: 20px;
     text-align: center;
     width: 60%;
+    background-color: #EFD3D7;
 
 
 }
@@ -94,6 +96,9 @@ body{
 }
 #check{
     display: none;
+}
+.footer{
+    text-align: center;
 }
 
 @media(max-width:800px){

@@ -50,6 +50,7 @@ body{
 .hero{
     height: 900px;
     width: 100%;
+    background-color: #DEE2FF;
 }
 #intro{
     padding-top: 100px;
@@ -69,6 +70,7 @@ body{
     padding: 10px;
     text-align: center;
     width: 60%;
+    background-color: #CBC0D3;
 
 
 }

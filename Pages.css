@@ -36,6 +36,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     
+    
 }
 .navbar ul li a{
     font-size: 25x;
@@ -50,6 +51,7 @@ body{
 .hero{
     height: 900px;
     width: 100%;
+    background-color: #DEE2FF;
 }
 #intro{
     padding-top: 100px;
@@ -69,6 +71,7 @@ body{
     padding: 20px;
     text-align: center;
     width: 60%;
+    background-color: #CBC0D3;
 
 
 }
@@ -87,6 +90,9 @@ body{
 }
 #check{
     display: none;
+}
+.footer{
+    text-align: center;
 }
 
 
