@@ -102,15 +102,17 @@ body{
         margin-right: 5px;
         color: aliceblue;
         font-size: 30px;
+        margin-top: 10px;
         
     }
+  
 
 
     .navbar ul{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: rgb(253, 251, 251);
+        background-color: #CBC0D3;
         top: 50px;
         left: -100%;
         text-align: center;
@@ -137,6 +139,7 @@ body{
         display: block;
         color: black;
         padding-top: 40px;
+        text-decoration: none;
         
        
     }
@@ -145,12 +148,14 @@ body{
         left: 0;
         
         
+        
     }
 
     #check:checked ~ label #s1{
         /*display: rgb(17, 17, 17);*/
         color: black;
         display: block;
+        
     } 
     /* #check:checked ~ label #s2{
         display: block;
@@ -160,29 +165,42 @@ body{
         content: "\f00d";
         color: azure;
         
+        
     }
     .container{
         width: 98%;
         overflow: hidden;
         margin: auto;
+        
     }
     #intro{
         font-size: 30px;
         padding-top: 80px;
     }
+    .hero{
+        background-color: #CBC0D3;
+    }
+  
     .hero ul {
         padding-left: 40px;
         padding-top: 10px;
+        
     }
     .hero ul li{
-        border: 1px solid black;
+        border: 0px solid black;
         border-radius: 10px;
         margin-bottom: 10px;
         padding: 20px;
         text-align: center;
         width: 80%;
+        background-color:#EFD3D7;
+        
     
     
+    }
+    .hero ul li a{
+        font-size: 25px;
+        color: black;
     }
     .footer{
         padding-top: 10px;
